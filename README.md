@@ -92,16 +92,6 @@ console.log(mergeTimeRanges(ranges1, 3));
 
 ---
 
-## 🔍 Visual Representation
-
-### Scenario: Small Gaps (Merged)
-```
-[0--------10]  [12---15]  [17-----25]  [27------35]
-  gap: 2ms      gap: 2ms    gap: 2ms
-  (threshold: 3ms)
-
-Result: [0---------------------------------35]
-```
 
 
 ## 📚 Complexity Analysis
